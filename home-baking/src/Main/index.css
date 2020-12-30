@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Adine Kirnberg';
+    src: local('Adine Kirnberg'), url(../Source/Fonts/Adine_Kirnberg.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Garineldo';
+    src: local('Garineldo'), url(../Source/Fonts/Garineldo.otf) format('otf');
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+  @keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
